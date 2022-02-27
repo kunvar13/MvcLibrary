@@ -13,7 +13,9 @@ namespace MvcLibrary.Data
         {
 
         }
-
+        //This is Step2 to create the Table in Database
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<ApplicationType> ApplicationTypes { get; set; }
     }
 }
